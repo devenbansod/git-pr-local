@@ -9,7 +9,7 @@ source setup.sh
 
 ## Usage
 ```sh
-git-pr-local <pr-number> [[<remote>] <new-local-branch>]
+git-pr-local <pr-number> [<remote> [<new-local-branch>]]
 ```
 
 ### Default values
