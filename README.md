@@ -22,5 +22,6 @@ git-pr-local <pr-number> [[<remote>] <new-local-branch>]
 * You want to locally checkout a PR with ID 2018 to a new local branch named `pr-local-checkout-2018` 
 
 ```sh
+cd <repository_directory>
 git-pr-local 2018 origin pr-local-checkout-2018
 ```
