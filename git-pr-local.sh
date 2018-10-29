@@ -1,12 +1,12 @@
 #!/bin/sh
-# Usage: ./git-pr.sh <pr-number> [[<remote>] <new-local-branch>]
+# Usage: git-pr-local <pr-number> [[<remote>] <new-local-branch>]
 
 REMOTE="origin"
 LOCAL_BRANCH_PREFIX="pr/"
 
 show_usage()
 {
-	echo "\nUsage: ./git-pr.sh <pr-number> [[<remote>] <new-local-branch>]"
+	echo "\nUsage: git-pr-local <pr-number> [[<remote>] <new-local-branch>]"
 }
 
 if [ -z "$1" ]; then
