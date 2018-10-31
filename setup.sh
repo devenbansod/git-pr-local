@@ -1,9 +1,9 @@
 #!/bin/sh
 
 CURRENT_PATH=$(pwd)
-alias git-pr-local='sh $CURRENT_PATH/git-pr-local.sh'
+ALIAS_COMMAND="alias git-pr-local='sh $CURRENT_PATH/git-pr-local.sh'"
 
-echo "\nalias git-pr-local='sh $CURRENT_PATH/git-pr-local.sh'" >> ~/.bashrc
-echo "\nalias git-pr-local='sh $CURRENT_PATH/git-pr-local.sh'" >> ~/.bash_profile
-echo "\nalias git-pr-local='sh $CURRENT_PATH/git-pr-local.sh'" >> ~/.profile
-echo "\nalias git-pr-local='sh $CURRENT_PATH/git-pr-local.sh'" >> ~/.zshrc
+echo "\n$ALIAS_COMMAND" >> ~/.bashrc
+echo "\n$ALIAS_COMMAND" >> ~/.bash_profile
+echo "\n$ALIAS_COMMAND" >> ~/.profile
+echo "\n$ALIAS_COMMAND" >> ~/.zshrc
