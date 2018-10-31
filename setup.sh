@@ -20,7 +20,7 @@ do
 		sed -i '' "s/$ALIAS_COMMAND_REGEX//g" ~/"$file" 2> /dev/null
 
 		# Add the alias
-		echo "\n$ALIAS_COMMAND" >> ~/"$file"
+		/bin/echo -n $ALIAS_COMMAND >> ~/$file
 	else
 		echo "Skipping adding alias command to ~/$file since we don't have read and write permissions"
 	fi
